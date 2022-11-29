@@ -1,0 +1,7 @@
+{
+    "modules": [
+        "check_in",
+        "jadwal_kuliah",
+        "detail_jadwal_kuliah"
+    ]
+}
