@@ -53,6 +53,7 @@ class CheckInView extends StatefulWidget {
                   ),
                   Text(
                     "Check in",
+                    key: const Key("text-login"),
                     style: GoogleFonts.poppins(
                         fontSize: 24, fontWeight: FontWeight.w600),
                   ),
@@ -81,6 +82,7 @@ class CheckInView extends StatefulWidget {
                     child: Form(
                       key: formKey,
                       child: TextFormField(
+                        key: const Key('input-email'),
                         autofocus: true,
                         controller: controller.email,
                         validator: (value) {
@@ -140,6 +142,7 @@ class CheckInView extends StatefulWidget {
                       }
                     },
                     child: Container(
+                      key: const Key('btn-login'),
                       width: 361,
                       height: 48,
                       decoration: BoxDecoration(
